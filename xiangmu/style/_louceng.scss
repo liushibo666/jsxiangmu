@@ -1,0 +1,154 @@
+.louceng,.louceng4{
+    height: 520px;
+}
+.one_lou_title{
+    height: 42px;
+}
+.one_lou_title h2{
+    cursor: pointer;
+    float: left;
+    height: 32px;
+    font: bold 18px "Microsoft YaHei";
+}
+.one_lou_title a{
+    color: red;
+}
+.one_lou_title i {
+    display: inline-block;
+    width: 31px;
+    height: 18px;
+    margin-right: 10px;
+    padding: 10px 7px 4px 7px;
+    color: #fff;
+    font: bold 14px "Microsoft YaHei";
+    vertical-align: text-bottom;
+    background: url(../images/floor_tit_icon.png) no-repeat left top;
+}
+.one_lou_title .keyword {
+    float: right;
+}
+
+
+.one_lou_title .keyword a {
+    cursor: pointer;
+    color: #4e4e4e;
+}
+.floor-side {
+    overflow: hidden;
+    float: left;
+    width: 273px;
+    height: 462px;
+    border-right: 1px solid #d5d5d5;
+}
+.floor-main {
+    overflow: hidden;
+    float: left;
+    width: 924px;
+    height: 462px;
+    border-top: 1px solid #d5d5d5;
+
+}
+
+.floor-main ul li{
+    overflow: hidden;
+    float: left;
+    width: 230px;
+    height: 230px;
+    background: white;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+.floor-main ul li img{
+   margin-left: -1px;
+}
+.floor-main ul li:hover img{
+    margin-left: 5px;
+    transition: all  0.5s;
+}
+.floor-main ul li:nth-of-type(3){
+    width: 461px;
+}
+
+.floor-main ul li:nth-of-type(4){
+    width: 461px;
+}
+.louceng4 .floor-main{
+    position: relative;
+}
+.louceng4 .floor-main ul li{
+    width: 220px;
+    height:191px ;
+}
+.louceng4 .col1{
+    float: left;
+    width: 234px;
+    height:383px ;
+    background: white;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+.louceng4 .col1:hover img{
+    margin-left: 5px;
+    transition: all  0.3s;
+}
+.louceng4 .col3:hover img{
+    margin-left: 5px;
+    transition: all  0.3s;
+}
+.louceng4 .col2{
+    float: left;
+    width: 442px;
+    height: 384px;
+}
+.louceng4 .col3{
+    float: left;
+    width: 243px;
+    height:461px ;
+    background: white;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+.louceng4 .floor-main .col4{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 654px;
+    height: 55px;
+    padding: 11px;
+    border-right: 1px solid #d5d5d5;
+    background: #fff;
+}
+.louceng4 .floor-main .col4 a{
+    display: block;
+    float: left;
+    margin: 0 14px;
+    
+}
+#loutinav{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 200px; 
+    border: 1px solid red;
+}
+#loutinav li{
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    line-height: 30px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+   #loutinav ul li.active span {
+        background: #c00;
+        color: #fff;
+        display: block;
+    }
+    
+    #loutinav ul li:hover span {
+        background: #c00;
+        color: #fff;
+        display: block;
+    }

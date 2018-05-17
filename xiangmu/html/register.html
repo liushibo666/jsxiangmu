@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/other.css"/>
+	</head>
+	<body>
+		<div class="header clearfix">
+		    <div class="wrap">
+		        <div class="logo">
+		            <a href="http://www.yiguo.com" target="_blank"></a>
+		            <span class="h-tit">注册</span>
+		        </div>
+		    </div>
+		</div>
+		
+<form action="../php/reg.php" method="post">    
+	<div class="register">
+        <div class="wrap">
+        	<span id="denglu">
+		    		已有账号或注册完成,请点击>>><a href="login.html" target="_parent" style="color: green;">去登录</a>
+		    	</span>
+           <div class="fl">
+	            <p>
+	                <span class="field-name">账号</span>
+	                <input class="input input-phone" id="username" name="username" placeholder="请输入您的账号" type="text" value="">
+	                <span></span>
+	            </p>
+	            
+	            <p>
+	                <span class="field-name">设置密码</span>
+	                <input class="input input-key" id="password" name="password" placeholder="6-20位字母、符号或数字" type="password">
+	                <span></span>
+	            </p>
+	            
+	            <p>
+	                <span class="field-name">确认密码</span>
+	                <input class="input input-key" id="Phone_ConfimPassword" name="Phone_ConfimPassword" placeholder="再次输入密码" type="password">
+	                <span></span>
+	            </p>
+	            
+	            <p>
+	                <span class="field-name">邮箱</span>
+	                <input class="input input-key" id="email" name="email" placeholder="邮箱" type="text" value="">
+	                <span></span>
+	            </p>
+	            
+	            <p>
+	             <span class="field-name">                 
+	             </span><label><input type="checkbox" id="tab1chk" checked="checked">我已阅读并同意<a>《易果服务协议》</a></label>
+	            </p>
+	            
+	            <p>
+	            <input type="submit" class="btn" name="submit" value="立即注册"/>
+	            </p>
+	        </div>
+	        
+			      <div class="fr">
+			           <div class="rimg"><img src="http://img06.yiguoimg.com/e/web/161205/01853/142855/register.png"></div>     
+			      </div>
+
+            </div>
+       </div>
+    </form>
+    <script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

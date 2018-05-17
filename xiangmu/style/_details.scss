@@ -1,0 +1,274 @@
+            .box{
+                margin: 30px auto;
+                width: 1200px;
+                height: 400px;
+                border: 1px solid red;
+                padding: 20px;
+            }
+            .smallbox{
+                width: 300px;
+                height: 300px;
+                border: 1px solid #ccc;
+                float: left;
+                position: relative;
+            }   
+            .smallbox img{
+                width: 300px;
+                height: 300px;
+            }
+            .smallglass{
+                position: absolute;
+                background: orange;
+                opacity: 0.5;
+                left: 0;
+                top: 0;
+                visibility: hidden;
+                cursor: move;
+            }
+            .bigbox{
+                width: 400px;
+                height:400px;
+                border: 1px solid #ccc;
+                float: left;
+                overflow: hidden;
+                visibility: hidden;
+                position: relative;
+            }
+            .bigpic{
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                z-index: 100;
+            }
+        
+    #ulist {
+        position: absolute;
+        left: 20px;
+        top: 340px;
+        width: 402px;
+        height: 56px;
+        padding: 20px;
+        overflow: hidden;
+    }   
+        ul li {
+        list-style: none;
+        float: left;
+        width: 56px;
+        height: 56px;
+        padding-right: 6px;
+    }
+
+    ul li img {
+        width: 52px;
+        height: 52px;
+        border: 1px solid #ccc;
+    }
+    .boxright{
+        position: absolute;
+        left: 400px;
+        width: 680px;
+        height: 400px;
+    }
+    .boxright p{
+        height: 22px;
+        margin-top: 5px;
+        color: #777;
+        font: normal 16px/20px "Microsoft YaHei";
+    }
+    .summary-price {
+    height: 70px;
+    padding: 10px 20px;
+    background: #fff;
+}
+.pro-price {
+    margin-top: 10px;
+    float: left;
+    height: 70px;
+}
+.pro-price span {
+    display: inline-block;
+    padding-left: 5px;
+}
+.pro-price em {
+    font-size: 18px;
+    color: #ff0000;
+    font-style: normal;
+}
+.pro-price strong {
+    color: #ff0000;
+    font-size: 35px;
+    font-weight: normal;
+}
+.pro-review {
+    float: right;
+    text-align: center;
+}
+.pro-review p {
+    line-height: 22px;
+    color: #999;
+}
+.pro-review b {
+    color: #e8380d;
+    font-size: 18px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.pro-review a {
+    color: #999;
+}
+.summary-other {
+    margin-top: 20px;
+}
+.summary-other .left {
+    float: left;
+    width: 529px;
+    padding-right: 20px;
+    border-right: 1px solid #d9d9d9;
+}
+.choose{
+    margin-bottom: 20px;
+}
+.choose .dt {
+    line-height: 52px;
+}
+.summary-other .dt {
+    float: left;
+    margin-top: 5px;
+    width: 40px;
+    padding: 0 10px;
+}
+.summary-other .dd {
+    float: left;
+    width: 468px;
+}
+.choose li {
+    float: left;
+    position: relative;
+    margin: 5px 10px 5px 0;
+}
+.choose li a {
+    float: left;
+    width: auto;
+    background-color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+    text-decoration: none;
+}
+.choose li span {
+    display: block;
+    padding: 5px 12px 5px 9px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.choose li.selected i {
+    display: block;
+}
+
+.choose li i {
+    z-index: 1;
+    position: absolute;
+    bottom: 4px;
+    right: -18px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -99em;
+    background: url(../images/product.png) no-repeat 0 0;
+}
+li.selected a{
+    border-color: #008842;
+}
+.pro-amount{
+    margin-bottom: 20px;
+}
+.pro-amount .dt {
+    margin-top: 40px;
+    line-height: 43px;
+}
+.spinner {
+    width: 76px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.spinner .decrease {
+    top: 21px;
+    right: 18px;
+    border-top: none;
+}
+.spinner button {
+    display: block;
+    width: 18px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    position: relative;
+    border: 1px solid #e2e2e2;
+    background-color: white;
+    cursor: pointer;
+}
+.spinner input {
+    width: 39px;
+    height: 39px;
+    line-height: 41px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    -webkit-appearance: none;
+    border: 1px solid #e2e2e2;
+    border-right: none;
+}
+.spinner .increase {
+    border-bottom: 1px solid #e2e2e2;
+    height: 21px;
+    display: block;
+    width: 18px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    position: relative;
+    border: 1px solid #e2e2e2;
+    background-color: white;
+    cursor: pointer;
+}
+.disabled {
+    float: left;
+    width: 187px;
+    height: 43px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.disabled a{
+    background: #008842;
+    display: block;
+    width: 187px;
+    height: 25px;
+    padding: 9px 0;
+    text-align: center;
+    font: normal 18px/25px "Microsoft YaHei";
+    color: #fff;
+}
+.summary-other .right {
+    float: right;
+    width: 120px;
+    padding-left: 10px;
+    color: #777;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-collapse: collapse;
+}
+.summary-other .right th {
+    padding: 5px 0;
+    width: 65px;
+    font-weight: normal;
+    text-align: left;
+}

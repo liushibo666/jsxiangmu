@@ -1,0 +1,104 @@
+.site-nav {
+    position: relative;
+    width: auto;
+    height: 30px;
+    background: #f7f9f8;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+    margin-top: 10px;
+}
+.fl li{
+    float: left;
+    padding: 0 10px;
+    text-align: center;
+}
+.fr {
+    float: right;
+}
+.fr li {
+    position: relative;
+    z-index: 100;
+    float: right;
+    line-height: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+.site-nav .myyiguo .tit i{
+    background-position: -40px 0;
+}
+.site-nav .mobile .tit i{
+    background-position: -64px 0;
+}
+.site-nav .fr .pay i{
+    background-position: -149px 0;
+}
+.site-nav .fr .TEL i{
+    background-position: -86px 0;
+}
+.site-nav .fr i{
+    display: block;
+    margin-top: 5px;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background: url(../images/header-img.png) no-repeat left top;
+}
+.con,.con1{
+display: none;
+}
+.site-nav .myyiguo .con,.con1 {
+    width: 80px;
+    padding: 5px 12px;
+    text-align: left;
+}
+.site-nav .con1{
+    padding: 0;
+    text-align: center;
+     width: 150px;
+}
+.site-nav .item img{
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+     display:block;
+}
+.site-nav .con1{
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    border: 1px solid #b4c1a3;
+    background: #fff;
+}
+.site-nav .fr .con{
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    border: 1px solid #b4c1a3;
+    background: #fff;
+}
+.myyiguo:hover{
+    padding: 0 9px;
+    height: 28px;
+    background: white;
+    border: 1px solid #b4c1a3; 
+    border-bottom: 0;
+}
+.myyiguo:hover .con{
+    display: block;
+}
+.mobile:hover{
+    padding: 0 9px;
+    height: 28px;
+    background: white;
+    border: 1px solid #b4c1a3; 
+    border-bottom: 0;
+}
+.mobile:hover .con1{
+    display: block;
+}

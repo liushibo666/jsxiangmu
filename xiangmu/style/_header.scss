@@ -1,0 +1,126 @@
+.header{
+    height: 78px;
+    background: #e0e0e0;
+}
+.logo{
+    float: left;
+    width: 280px;
+    height: 50px;
+    margin-right: 10px;
+}
+.logo a{
+    display: block;
+    width: 145px;
+    height: 50px;
+    margin-top: 14px;
+}
+.search{
+     margin-top: 14px;
+    float: left;
+    width: 528px;
+}
+.search .search-input {
+    float: left;
+    width: 425px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    border: 1px solid #008842;
+    background: #e0e0e0;
+}
+.search button{
+    width: 81px;
+    height: 28px;
+    color: white;
+    border: 1px solid #008842;
+    background: #008842;
+}
+#keywords {
+    height: 30px;
+}
+.search .search-keywords {
+    line-height: 30px;
+}
+.search .search-keywords a.hot {
+    color: #008842;
+}
+.search .search-keywords a {
+    margin-right: 5px;
+    color: #727272;
+    display: inline-block;
+}
+.shopping-cart {
+    z-index: 88;
+    float: right;
+    margin-top: 14px;
+    position: relative;
+}
+.shopping-btn {
+    width: 170px;
+    height: 28px;
+    padding: 6px 0;
+    line-height: 28px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #008842;
+    background: #fff;
+    cursor: pointer;
+}
+.shopping-btn a {
+    display: block;
+    color: #008842;
+}
+.totleNum {
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 0;
+    background: url(../images/header-img.png) no-repeat -112px 0;
+}
+.shopping-btn .totleNum b {
+    display: block;
+    width: 24px;
+    line-height: 12px;
+    margin-right: 4px;
+    text-align: center;
+}
+.shopping-btn .totlePrice {
+    font-weight: normal;
+    font-family: Arial, "Microsoft YaHei";
+}
+.shopping-list {
+    z-index: 88;
+    position: absolute;
+    top: 41px;
+    right: 0;
+    width: 380px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #007f4d;
+}
+.shopping-list .nogoods {
+    width: 380px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background: url(../images/none-bg-w190.jpg) no-repeat center #fff;
+}
+
+.shopping-list p {
+    width: 380px;
+    height: 28px;
+    line-height: 28px;
+    color: #008842;
+    margin: -10px 0 0 -10px;
+    padding: 0 10px;
+    background: #ededed;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.shopping-cart:hover .shopping-list{
+    display: block;
+}

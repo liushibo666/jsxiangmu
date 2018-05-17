@@ -1,0 +1,38 @@
+.footer_service {
+    background: #e0e0e0;
+    margin-top: 10px;
+    padding: 30px 0;
+}
+.footer_service .wrap{
+    height: 42px;
+}
+.footer_service li {
+    float: left;
+    width: 190px;
+    height: 42px;
+//  line-height: 42px;
+    margin-left: 55px;
+    padding-left: 55px;
+    background: url(../images/footer_service_icon.png) no-repeat left top;
+}
+.footer_service .s2 {
+    background-position: 0 -42px;
+}
+.footer_service .s3 {
+    background-position: 0 -84px;
+}
+.footer_service .s4 {
+    background-position: 0 -126px;
+}
+.footer_service li b {
+    display: block;
+    padding-left: 15px;
+    color: #007f4d;
+    font: normal 18px/25px "Microsoft YaHei";
+    border-left: 1px solid #a6a6a6;
+}
+.footer_service li span {
+    display: block;
+    padding-left: 15px;
+    border-left: 1px solid #a6a6a6;
+}

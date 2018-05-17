@@ -1,0 +1,82 @@
+#denglu{
+   display: block;
+   position: absolute;
+   right: 40px;
+   top: 10px;
+   font-size: 15px;
+}
+form{
+    overflow: hidden;
+    position: relative;
+}
+.register {
+    padding-top: 54px;
+}
+a{
+    color: #008842;
+}
+.tabbable .right {
+    position: absolute;
+    top: -27px;
+    right: 0;
+    font: 14px/1 "Microsoft YaHei";
+    text-align: right;
+}
+.fl {
+    float: left;
+}
+.register .fr {
+    height: 360px;
+    background: white;
+    width: 330px;
+    margin-right: 100px;
+    font: 14px/56px "Microsoft YaHei";
+    float: right;
+}
+.register p{
+    margin-bottom: 29px;
+    font: 14px Arial,"Microsoft YaHei";
+}
+.register .field-name {
+    display: inline-block;
+    width: 220px;
+    text-align: right;
+    padding-right: 20px;
+}
+.register .input {
+    margin-right: 20px;
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+    height: 38px;
+    vertical-align: middle;
+    padding-left: 14px;
+    width: 290px;
+    font: 14px/38px "Microsoft YaHei";
+}
+.register .input-yzm {
+    width: 147px;
+}
+.gray {
+    color: #666666;
+}
+.input-phone {
+    background-position: 276px -30px;
+}
+.input-phone, .input-mail, .input-key {
+    background-image: url(../images/bg_input.png);
+    background-repeat: no-repeat;
+}
+.input-key {
+    background-position: 276px -70px;
+}
+
+.btn {
+    width: 304px;
+    margin-left:245px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #f7f7f7;
+    border: 1px solid #c1c1c1;
+    background: #008842;
+}
