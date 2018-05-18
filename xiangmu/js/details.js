@@ -1,4 +1,4 @@
-		function Fdj(){
+		function Fdj(){//面向对象
 			this.box=document.querySelector('.box');
 			this.smallbox=document.querySelector('.smallbox');
 			this.smallglass=document.querySelector('.smallglass');

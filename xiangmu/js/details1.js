@@ -8,16 +8,13 @@
 				if(getCookie('cartnum')){//cartnum：cookie里面数量的名称
 					numarr=getCookie('cartnum').split(',');
 				}
-			}
-			
-			//第三步思路：通过判断商品的id是否存在上面获取的sid里面。
-			//如果存在，已经在购物车里面了，否则将商品sid添加到cookie里面
-			$('.disabled').on('click', function() {
-				var sid = $(this).parents('.goodsinfo').find('.loadimg').attr('sid');//当前按钮对应图片的sid
+			}			
+			                                       //第三步思路：通过判断商品的id是否存在上面获取的sid里面。	
+			$('.disabled').on('click', function() {//如果存在，已经在购物车里面了，否则将商品sid添加到cookie里面
+				var sid = $(this).parents('.pro-amount').find('.shanzhu').attr('sid');//当前按钮对应图片的sid
 				getcookievalue();//获取商品的id和数量,放到对应的数组中,利用数组进行匹配
 				if ($.inArray(sid, sidarr) != -1) {//是否存在cookie中
-					//将之前的数据和当前存的数据相加，存放cookie里面
-					if(getCookie('cartnum')==''){
+					if(getCookie('cartnum')==''){//将之前的数据和当前存的数据相加，存放cookie里面
 						var num=parseInt($('#p_number').val());
 						numarr[$.inArray(sid,sidarr)]=num;
 						addCookie('cartnum', numarr.toString(), 7);//修改后的结果

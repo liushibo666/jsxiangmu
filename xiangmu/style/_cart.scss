@@ -1,26 +1,10 @@
 @charset "utf-8";
-input,
-select,
-textarea { outline: none; border: none; background: none; border-radius: 0;
-  -webkit-border-radius: 0;
-  background-image: -webkit-linear-gradient(transparent, transparent);
-  background-image: linear-gradient(transparent, transparent);
-  font-family:"Helvetica", "Arial";
-}
-textarea { resize: none; }
+input,select,textarea { outline: none; border: none; background: none; border-radius: 0;}
 a { border:0; text-decoration: none; outline: none;}
 a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 em{ font-style: normal;}
 a{color: #666; }
 i{cursor: default;}
-.redcolor{
-    color:#c81623 !important;
-}
-
-.w{
-    width: 1200px;
-    margin: 0 auto;
-}
 .header{
     padding: 15px 0 10px 0;
     overflow: hidden;
@@ -100,24 +84,24 @@ i{cursor: default;}
     margin-top: 10px;
 }
 
-.cart-top-left{
+.top-left{
     height: 38px;
     width: 225px;
     float: left;
     background-image: url(../images/bg_cart.png);
     background-repeat: no-repeat;
 }
-.cart-top-right{
+.top-right{
     float: left;
     margin-bottom: 10px;
 }
-.cart-top-right span{
+.top-right span{
     height: 26px;
     line-height: 36px;
     float: left;
 }
 
-.cart-top-right .jdarea{
+.top-right .area{
     margin-top: 5px;
     height: 26px;
     float: left;
@@ -128,7 +112,7 @@ i{cursor: default;}
     line-height: 42px;
 }
 
-.jdarea .areawrap{
+.area .areawrap{
     float: left;
     position: relative;
     top: 0;
@@ -180,10 +164,10 @@ i{cursor: default;}
     border-top: 0;
 }
 
-.cart-col{
+.txt{
     float: left;
 }
-.t-checkbox{
+.zbox{
     height: 18px;
     line-height: 18px;
     padding-top: 7px;
@@ -191,48 +175,43 @@ i{cursor: default;}
     padding-left: 11px;
 }
 
-.cart-checkbox input{
+.lcheckbox input{
     margin-right: 5px;
 }
-.t-goods{
+.t1{
     width: 185px;
     padding-left: 27px;
 }
 
-.t-props{
+.t2{
     width: 140px;
     height: 32px;
     padding: 0 0 0 25px;
 }
-.t-prices{
+.t3{
     width: 105px;
     padding-right: 136px;
     text-align: right;
     height: 32px;
 }
 
-.t-quantity{
+.t4{
     text-align: center;
     width: 80px;
 }
 
-.t-sum{
+.t5{
     width: 148px;
     padding-right: 85px;
     text-align: right;
 }
-
-.cart-item-list{
-    margin-bottom: 20px;
-}
-
-.cart-item-list .shop{
+.cj-list .shop{
     height: 30px;
     line-height: 30px;
     padding-left: 11px;
     font-weight: 700;
 }
-.shop .cart-checkbox{
+.shop .qxbox{
     float: left;
 }
 
@@ -247,88 +226,18 @@ i{cursor: default;}
     width: 54px;
     height: 18px;
 }
-
-
-.shop .shop-ex{
-    float: right;
-    font-weight: 400;
-}
-.shop .shop-ex span{
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin: -3px 0 0 5px;
-    vertical-align: middle;
-}
-
 .item-list{
     border-style: solid;
     border-width: 2px 1px 1px;
     border-color: #aaa #f1f1f1 #f1f1f1;
     background: #fff;
 }
-
-.item-head{
-    height: 26px;
-    padding: 5px 10px;
-    overflow: hidden;
-}
-
-.item-head .header-left{
-    width: 750px;
-    line-height: 26px;
-    float: left;
-}
-
-.header-left-p1{
-    color: #666;
-}
-.header-left-p1 span{
-    margin: 0 10px 0 5px;
-    padding: 1px 10px;
-    border: 1px solid #f48719;
-    background: #f48719;
-    color: white;
-    position: relative;
-}
-
-.header-left-p1 span b{
-    position: absolute;
-    display: block;
-    width: 5px;
-    height: 6px;
-    left: -1px;
-    bottom: -5px;
-}
-
-.header-left-p2{
-    margin-left: 20px;
-    padding: 0 5px;
-    border-radius: 2px;
-    background: #e74649;
-    color: white;
-    display: inline-block;
-    height: 19px;
-    line-height: 19px;
-}
-
-.header-price{
-    width: 100px;
-    float: left;
-    text-align: right;
-}
-
-.goods-item{
+.spi-item{
     padding: 0 10px 0 40px;
     
     position: relative;
 }
-
-//.goods-item-sele{
-//  background: #fff4e8;
-//}
-
-.goods-info{
+.spi-info{
     border-top: 1px solid #f1f1f1;
     overflow: hidden;
 }
@@ -346,12 +255,12 @@ i{cursor: default;}
     
 }
 
-.goods-item .cart-checkbox input{
+.spi-item .qxbox input{
     position: absolute;
     z-index: 2;
 }
 
-.cart-checkbox .line-circle{
+.qxbox .line-circle{
     position: absolute;
     left: 2px;
     top: -5px;
@@ -360,23 +269,23 @@ i{cursor: default;}
     height: 29px;
 }
 
-.goods-item .b-goods{
+.spi-item .b-spi{
     width: 315px;
     padding: 15px 0 10px 0;
 }
 
-.b-goods .goods-name .goods-pic{
+.b-spi .spi-name .spi-pic{
     width: 82px;
     height: 82px;
     margin-right: 10px;
     border: 1px solid #eee;
     float: left;
 }
-.b-goods .goods-name .goods-pic img{
+.b-spi .spi-name .spi-pic img{
     width: 80px;
     height: 80px;
 }
-.goods-d-info{
+.spi-d-info{
     width: 60px;
     height: 40px;
     padding: 0 0 0 28px;
@@ -384,44 +293,42 @@ i{cursor: default;}
     overflow: hidden;
 }
 
-.goods-ex{
-    margin-top: 2px;
-}
+//.spi-ex{
+//  margin-top: 2px;
+//}
 
-.goods-ex .promise{
-    margin: 0 10px 0 0;
-    display: block;
-    min-height: 18px;
-    line-height: 18px;
-    margin-bottom: -10px;
-}
+//.spi-ex .promise{
+//  margin: 0 10px 0 0;
+//  display: block;
+//  min-height: 18px;
+//  line-height: 18px;
+//  margin-bottom: -10px;
+//}
 
-.promise i{
-    display: inline-block;
-    width: 17px;
-    height: 16px;
-    vertical-align: middle;
-}
+//.promise i{
+//  display: inline-block;
+//  width: 17px;
+//  height: 16px;
+//  vertical-align: middle;
+//}
 
-.promise a{
-    display: inline-block;
-    padding: 1px 4px 0 7px;
-    height: 15px;
-    line-height: 15px;
-    vertical-align: middle;
-}
-
+//.promise a{
+//  display: inline-block;
+//  padding: 1px 4px 0 7px;
+//  height: 15px;
+//  line-height: 15px;
+//  vertical-align: middle;
+//}
+//
 .b-props{
     line-height: 40px;
     height: 80px;
     padding: 15px 10px 0 10px;
     overflow: hidden;
 }
-
 .b-props .prop-text{
     width: 160px;
 }
-
 .b-price{
     width: 100px;
     padding: 30px 75px 10px 45px;
@@ -430,7 +337,6 @@ i{cursor: default;}
 .b-price strong{
     padding: 0 5px 0 0;
 }
-
 .b-price .sales-promotion{
     margin-top: -3px;
     display: block;
@@ -448,30 +354,28 @@ i{cursor: default;}
     overflow: hidden;
     position: relative;
 }
-
-//.sales-promotion b{
-//  display: inline-block;
-//  width: 7px;
-//  height: 4px;
-//  position: absolute;
-//  right: 8px;
-//  top: 8px;
-//}
+.sales-promotion b{
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
 
 .b-quantity{
     width: 80px;
     padding: 15px 0 10px;
 }
 
-.b-quantity .quantity-form{
+.b-quantity .sp-form{
     margin-top: 12px;
     position: relative;
     overflow: hidden;
     height: 20px;
     border: 1px solid #cacbcb;
 }
-
-.quantity-form a{
+.sp-form a{
     display: inline-block;
     height: 18px;
     line-height: 18px;
@@ -483,29 +387,24 @@ i{cursor: default;}
     background: #fff;
     float: left;
 }
-.quantity-form .quantity-down{
+.sp-form .spdown{
     border-right: 1px solid #cacbcb;
 }
-
-.quantity-form .quantity-add{
+.sp-form .spadd{
     border-left: 1px solid #cacbcb;
 }
-
-
-.quantity-form input{
+.sp-form input{
     width: 44px;
     height: 22px;
     float: left;
     text-align: center;
     background: white;
 }
-
 .quantity-text{
     text-align: center;
     height: 20px;
     line-height: 20px;
 }
-
 .b-sum{
     margin-top: 15px;
     width: 100px;
@@ -529,44 +428,39 @@ i{cursor: default;}
     width: 75px;
     height: 20px;
 }
-
-#cart-floatbar{
+#cart-foot{
     width: 1160px;
     height: 50px;
     background: #fff;
     position: relative;
 }
-
-.select-all{
+.qx{
     float: left;
     height: 18px;
     line-height: 18px;
     padding: 16px 0 16px 9px;
 }
-
-.operation{
+.qxl{
     float: left;
     height: 50px;
     width: 310px;
     line-height: 50px;
 }
 
-.operation a{
+.qxl a{
     margin-left: 20px;
     display: inline-block;
     height: 50px;
 }
-
-.toolbar-right{
+.qxr{
     overflow: hidden;
 }
 
-.toolbar-right .btn-area{
+.qxr .rbtn{
     float: right;
     
 }
-
-.btn-area a button{
+.rbtn a button{
     cursor: pointer;
     background: #e4393c;
     color: white;
@@ -577,8 +471,7 @@ i{cursor: default;}
     height: 36px;
     margin: 7px 5px 0 0;
 }
-
-.price-sum{
+.zj{
     float: right;
     height: 43px;
     line-height: 33px;
@@ -587,7 +480,7 @@ i{cursor: default;}
     width: 220px;
 }
 
-.price-sum span{
+.zj span{
     display: inline-block;
     width: 110px;
     height: 20px;
@@ -595,250 +488,26 @@ i{cursor: default;}
     text-align: left;
 }
 
-.price-sum .txt{
+.zj .txt{
     text-align: right;
 }
-
-.price-sum .totalprice{
+.zj .txt-sj{
     font-size: 18px;
     color: #e4393c;
     font-weight: 700;
 }
-
-.amount-sum{
+.sp-num{
     float: right;
     color: #999;
     height: 44px;
     line-height: 33px;
-    margin: 7px 0 0;
+    margin: 7px 5px 0 0;
     cursor: pointer;
 }
 
-.amount-sum em{
+.sp-num em{
     color: #e4393c;
     font-family: verdana;
     font-weight: 700;
     margin: 0 3px;
-}
-
-.amount-sum b{
-    display: inline-block;
-    width: 9px;
-    height: 5px;
-    vertical-align: middle;
-    background: url(../images/cart-icons-new.png) no-repeat -45px -91px;
-}
-
-.tab .mt{
-    margin-bottom: 10px;
-    height: 23px;
-    line-height: 23px;
-}
-
-.mt .tab-item{
-    display: inline-block;
-    height: 18px;
-    margin-right: 35px;
-    padding-bottom: 3px;
-    border-bottom: 2px solid #fff;
-        
-}
-.mt .curr{
-    color: #e4393c;
-    font-weight: 700;
-    border-color: #e4393c;
-}
-
-
-
-
-.mc{
-    height: 326px;
-    position: relative;
-}
-
-.mc .guess-products{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.mc .guess-products .goods-list-tab{
-    position: absolute;
-    right: 0;
-    top: -26px;
-    width: 60px;
-}
-
-.goods-list-tab .s-item{
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    margin-left: 3px;
-    overflow: hidden;
-    background: #aaa;
-    border-radius: 4px;
-}
-/*
-.s-item:hover{
-        width: 26px;
-    background: #e4393c;
-}*/
-
-.goods-list-tab .tab-selected{
-    width: 26px;
-    background: #e4393c;
-}
-
-.guess-products .panel-main{
-        width: 100%;
-    height: 100%;
-}
-
-
-.guess-products .panel-main .goods-list{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.goods-list ul{
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-}
-
-.goods-list ul li{
-    float: left;
-    
-}
-
-.goods-list ul li .goodsinfo{
-    position: relative;
-    width: 206px;
-    padding: 20px;
-    background: #fff;
-    margin: -1px 0 0 -1px;
-    border: 1px dashed #cacaca;
-    overflow: hidden;
-}
-
-.goods-list ul li .goodsinfo:hover{
-    z-index: 2;
-    border: 1px solid #E4393C;
-}
-
-.p-img{
-    width: 160px;
-    margin: 0 auto;
-}
-.goodsinfo .p-img img{
-    vertical-align: middle;
-    width: 160px;
-    height: 160px;
-    
-}
-
-.p-name{
-    height: 36px;
-    line-height: 18px;
-    margin: 5px 0;
-    overflow: hidden;
-}
-
-.p-price{
-    width: 100%;
-    margin: 5px 0 2px;
-    overflow: hidden;
-    text-align: center;
-}
-.p-price strong{
-    font-size: 14px;
-    color: #d91f20;
-    font-family: verdana;
-    font-weight: 400;
-}
-
-.p-btn{
-    margin: 10px 0 0;
-    text-align: center;
-}
-
-.p-btn a{
-    display: inline-block;
-
-    height: 28px;
-    line-height: 28px;
-    padding: 0 20px;
-    border: 1px solid #999;
-    color: #666;
-    text-align: center;
-
-    border-radius: 3px;
-}
-
-.p-btn a:hover{
-    border: 1px solid #E4393C;
-    background: #E4393C;
-    color: white;
-}
-
-.p-btn b{
-    display: inline-block;
-    height: 18px;
-    width: 18px;
-    margin-right: 5px;
-    overflow: hidden;
-    vertical-align: middle;
-}
-
-.favorite-products{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;
-}
-
-.favorite-products .favorite-products-main{
-    margin-top: 10px;
-    text-align: center;
-    line-height: 326px;
-}
-
-.history-products{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;
-}
-
-
-.slider-page-btn{
-    display: none;
-}
-.slider-page-btn a{
-    position: absolute;
-    display: block;
-    top: 50%;
-    margin-top: -31px;
-    z-index: 3;
-    display: block;
-    width: 28px;
-    height: 62px;
-    line-height: 62px;
-    background: gray;
-    background: rgba(0,0,0,.2);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32000000, endColorstr=#32000000);
-    color: #fff;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 400;
-    font-family: simsun;
-}
-
-.left-btn{
-    left: 0;
-}
-.right-btn{
-    right: 0;
 }

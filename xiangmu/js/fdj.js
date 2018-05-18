@@ -43,7 +43,8 @@
                     $bigbox.find('img')[0].src = $(this).find('img')[0].src;
               	})
               })
+
+                
 			})
-			
 		})
     })()
